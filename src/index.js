@@ -1,2 +1,4 @@
 
-console.log("Ola eu seou o index.js")
+import './styles/styles.scss';
+
+
