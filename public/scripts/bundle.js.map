@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;;;AACA,qC","sources":["webpack://afama/./src/index.js"],"sourcesContent":["\nconsole.log(\"Ola eu seou o index.js\")"],"names":[],"sourceRoot":""}
