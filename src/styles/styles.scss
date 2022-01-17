@@ -2,7 +2,7 @@
 
 /* ======== GOOGLE FONTS ========= */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 
 /* ============= VARIABLES SASS ============= */
 $sidebar-width: 420px;
@@ -34,28 +34,48 @@ html, body {
     height: 100%;
 }
 
-body {
-    display: flex;
-}
-
-
-
-
-
-
-
 /* ============= BASE ============= */
 
-
-.side__bar-container {
-    width: $sidebar-width;
+.wrapper {
+    width: 100%;
     height: 100%;
-    background: $secondary-color;
+    background: url('../../public/assets/background.svg') no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.content__container {
-    flex: 1;
-    background: $primary-color;
-    border: 1rem solid $secondary-color;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    gap: 2rem;
+}
+
+.container :is(h1, p) {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Tangerine', sans-serif;
+    font-size: 5rem;
+}
+
+p {
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    color: white;
+    i {
+        font-size: 1.5rem;
+    }
+}
+
+span:hover {
+    color: orange;
 }
